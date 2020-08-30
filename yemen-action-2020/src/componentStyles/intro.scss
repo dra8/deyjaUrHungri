@@ -24,16 +24,17 @@
   z-index: 1;
 
   h1 {
-    color: $main-color;
+    color: $white;
     font-weight: 800;
-    font-size: 7vw;
+    font-size: 8vw;
   }
   
 
   h2 {
-    color: $white;
+    color: $main-color;
     font-weight: 600;
     font-size: 3vw;
+    margin-top: -5.5%;
   }
 }
 
