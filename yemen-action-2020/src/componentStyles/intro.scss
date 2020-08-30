@@ -10,15 +10,31 @@
   position: absolute;
   border-style: solid;
   border-width: 0 0 100vh 70vw;
-  border-color: transparent transparent #ff7700 transparent;
-  opacity: 0.5;
+  border-color: transparent transparent $main-color transparent;
+  opacity: 0.34;
   bottom:0;
   right:0;
 }
 
 .IntroText {
-  position: relative;
+  margin-top: 30vh;
   font-family: $main-font;
-  font-weight: bold;
   font-style: italic;
+  position: relative;
+  z-index: 1;
+
+  h1 {
+    color: $main-color;
+    font-weight: 800;
+    font-size: 7vw;
+  }
+  
+
+  h2 {
+    color: $white;
+    font-weight: 600;
+    font-size: 3vw;
+  }
 }
+
+
