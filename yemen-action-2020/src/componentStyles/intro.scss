@@ -6,25 +6,28 @@
   width: 100vw;
   background-image: url("../images/hunger.JPG");
   background-repeat: no-repeat, repeat;
-  background-position: center; /* Center the image */
+  background-position: center;
   background-size: cover; 
   background-blend-mode: none;
   position: relative;
   margin-top: -1vh;
+  background-attachment: fixed;
+
 }
 
 .darken {
-  position: absolute;
+  position: fixed;
   border-style: solid;
   border-width: 100vh 100vw 100vh 100vw;
   border-color: $black;
   opacity: 0.8;
   bottom:0;
   right:0;
+  z-index: 0;
 }
 
 .triangle {
-  position: absolute;
+  position: fixed;
   border-style: solid;
   border-width: 0 0 150vh 60vw;
   border-color: transparent transparent $secondary-color transparent;
@@ -36,6 +39,7 @@
   -moz-animation: slide ease-in-out 1s;
   -o-animation: slide ease-in-out 1s;
   -ms-animation: slide ease-in-out 1s;
+  z-index: 0;
 }
 
 .introText {

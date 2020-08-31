@@ -1,0 +1,12 @@
+@import "./constants.scss";
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  margin-top: -1vh;
+  z-index: 2;
+}

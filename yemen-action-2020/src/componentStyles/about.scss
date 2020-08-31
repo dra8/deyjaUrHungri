@@ -9,6 +9,8 @@
   background-size: cover; 
   background-blend-mode: none;
   background-color: $dark-dark-grey;
+  z-index: 1;
+  opacity: 0.95;
 }
 
 .shape {
@@ -18,9 +20,7 @@
   border-color:  $black;
   opacity: 0.7;
   z-index: 0;
-  top: 100%;
-  bottom:0;
-  right:0;
+  top: 109%;
 }
 
 .moreButton {
