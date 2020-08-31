@@ -6,15 +6,6 @@
   background-color: $black;
 }
 
-.challengeText {
-  position: relative;
-  font-family: $main-font;
-  z-index: 1;
-  color: $white;
-  text-align: justify;
-  font-weight: 600;
-}
-
 .challengeTitle {
   position: relative;
   color: $main-color;
@@ -29,21 +20,32 @@
   display: flex;
   z-index: 1;
   justify-content: space-around;
-  align-items: center;
-  margin-left: 10vw;
-  margin-right: 5vw;
+  margin-left: 1vw;
+  margin-right: 0vw;
+  align-content: center;
 }
 
 .challengeImage {
   position: relative;
   z-index: 1;
+
 }
 
 img {
-  max-width: 30vw;
-  max-height: 70vh;
   width: auto;
   height: auto;
+  max-width: 40vw !important;
+  max-height: 60vh !important;
+}
+
+.challengeText {
+  position: relative;
+  font-family: $main-font;
+  z-index: 1;
+  color: $white;
+  text-align: justify;
+  max-width: 60vw;;
+  font-weight: 600;
 }
 
 .animation {
