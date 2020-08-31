@@ -1,0 +1,23 @@
+@import "./constants.scss";
+
+.Disclaimer {
+  margin: 0;
+  width: 100vw;
+  height: 20vh;
+  background-color: $black;
+  position: relative;
+  font-family: $main-font;
+  position: relative;
+  z-index: 1;
+  color: $white;
+  text-align: justify;
+  font-weight: 600;
+  font-size: 1vmin;
+  position: relative;
+}
+
+p, h3 {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}

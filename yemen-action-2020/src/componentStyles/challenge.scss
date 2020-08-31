@@ -1,0 +1,18 @@
+@import "./constants.scss";
+
+.Challenge {
+  width: 100vw;
+  height: 90vh;
+  background-color: $black;
+}
+
+.ChallengeText {
+  position: relative;
+  font-family: $main-font;
+  position: relative;
+  z-index: 1;
+  color: $white;
+  text-align: justify;
+  font-weight: 600;
+  margin: 10%;
+}

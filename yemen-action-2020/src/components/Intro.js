@@ -7,8 +7,9 @@ class Intro extends Component {
     <div className="Intro">
       <div className="IntroText">
         <h1>Deyja úr hungri</h1>
-        <h2>Börn í Jemen þurfa þína hjálp</h2>      
+        <h2>Börn í Jemen þurfa þína hjálp</h2>  
       </div>
+      <div className="Darken"></div>
       <div className="Triangle">
       </div>
     </div>
