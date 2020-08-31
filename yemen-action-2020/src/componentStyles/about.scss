@@ -1,6 +1,6 @@
 @import "./constants.scss";
 
-.About {
+.about {
   height: 100vh;
   width: 100vw;
   background-image: url("../images/war.JPG");
@@ -11,7 +11,7 @@
   background-color: $dark-dark-grey;
 }
 
-.Shape {
+.shape {
   position: absolute;
   border-style: solid;
   border-width: 100vh 100vw 100vh 100vw;
@@ -23,14 +23,38 @@
   right:0;
 }
 
-.AboutText {
-  position: relative;
+.moreButton {
+  background-color: transparent; /* Green */
+  border: none;
+  color: $white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vmin;
   font-family: $main-font;
-  position: relative;
+  z-index: 1;
+}
+
+p {
+  font-family: $main-font;
   z-index: 1;
   color: $white;
+  padding-bottom: 0;
+  margin-bottom: 5% !important;
+}
+
+.aboutText {
+  position: relative;
+  position: relative;
   text-align: justify;
   font-weight: 600;
   font-size: 4vmin;
   margin: 10%;
+  padding-bottom: 0;
+}
+
+.aboutMoreText {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }

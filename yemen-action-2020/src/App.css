@@ -1,8 +1,11 @@
+@import "./componentStyles/constants.scss";
+
 .App {
   text-align: center;
   background-color: #282c34;
   display: flex;
   flex-direction: column;
+  font-family: $main-font;
   align-items: center;
   justify-content: center;
   color: white;

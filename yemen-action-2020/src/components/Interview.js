@@ -3,7 +3,7 @@ import "../componentStyles/interview.scss";
 
 class Interview extends Component {
   render() {
-    return <div className="Interview">
+    return <div className="interview">
       <p>Interview</p>
     </div>;
   }

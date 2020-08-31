@@ -4,13 +4,13 @@ import "../componentStyles/intro.scss";
 class Intro extends Component {
   render() {
     return (
-    <div className="Intro">
-      <div className="IntroText">
+    <div className="intro">
+      <div className="introText">
         <h1>Deyja úr hungri</h1>
         <h2>Börn í Jemen þurfa þína hjálp</h2>  
       </div>
-      <div className="Darken"></div>
-      <div className="Triangle">
+      <div className="darken"></div>
+      <div className="triangle">
       </div>
     </div>
     );

@@ -5,7 +5,7 @@ import pulsaogkok from "../images/pulsa_kok.png";
 class Menu extends Component {
   render() {
     return (
-      <div class="Menu">
+      <div class="menu">
       <p>Menu</p>
       </div>
     );

@@ -1,6 +1,6 @@
 @import "./constants.scss";
 
-.Intro {
+.intro {
   background-color: black;
   height: 100vh;
   width: 100vw;
@@ -13,7 +13,7 @@
   margin-top: -1vh;
 }
 
-.Darken {
+.darken {
   position: absolute;
   border-style: solid;
   border-width: 100vh 100vw 100vh 100vw;
@@ -23,7 +23,7 @@
   right:0;
 }
 
-.Triangle {
+.triangle {
   position: absolute;
   border-style: solid;
   border-width: 0 0 150vh 60vw;
@@ -31,14 +31,24 @@
   opacity: 0.34;
   bottom:0;
   right:0;
+  animation: slide ease-in-out 1s;
+  -webkit-animation: slide ease-in-out 1s;
+  -moz-animation: slide ease-in-out 1s;
+  -o-animation: slide ease-in-out 1s;
+  -ms-animation: slide ease-in-out 1s;
 }
 
-.IntroText {
+.introText {
   margin-top: 30vh;
   font-family: $main-font, sans-serif;
   position: relative;
   z-index: 1;
   font-style: italic;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 
   h1 {
     color: $white;
@@ -55,4 +65,53 @@
   }
 }
 
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
 
+
+  @keyframes slide {
+    0% {right: -10vw;}
+    100% {right: 0;}
+    }
+    
+    @-moz-keyframes slide {
+      0% {right: -10vw;}
+    100% {right: 0;}
+    }
+    
+    @-webkit-keyframes slide {
+      0% {right: -10vw;}
+    100% {right: 0;}
+    }
+    
+    @-o-keyframes slide {
+      0% {right: -10vw;}
+      100% {right: 0;}
+    }
+    
+    @-ms-keyframes slide {
+      0% {right: -10vw;}
+    100% {right: 0;}
+    }
