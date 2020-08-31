@@ -11,14 +11,12 @@ import Intro from "./components/Intro";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <Intro></Intro>
         <About></About>
         <Challenge></Challenge>
         <Disclaimer></Disclaimer>
-        <Interview></Interview>
         <Menu></Menu>
-      </header>
+        <Interview></Interview>
     </div>
   );
 }

@@ -3,7 +3,7 @@
 .Disclaimer {
   margin: 0;
   width: 100vw;
-  height: 20vh;
+  height: 50vh;
   background-color: $black;
   position: relative;
   font-family: $main-font;
@@ -12,12 +12,20 @@
   color: $white;
   text-align: justify;
   font-weight: 600;
-  font-size: 1vmin;
+  font-size: 2vmin;
   position: relative;
 }
 
-p, h3 {
+p, h3, h2 {
   position: relative;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+h2 {
+  color: $main-color;
+}
+
+h3 {
+  color: $secondary-color;
 }

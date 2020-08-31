@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import "../componentStyles/menu.scss";
+import pulsaogkok from "../images/pulsa_kok.png";
 
 class Menu extends Component {
   render() {
-    return <div className="Menu">
+    return (
+      <div class="Menu">
       <p>Menu</p>
-    </div>;
+      </div>
+    );
   }
 }
 export default Menu;

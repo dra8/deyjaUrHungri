@@ -4,11 +4,13 @@
   background-color: black;
   height: 100vh;
   width: 100vw;
-  background-image: url("../photos/hunger.JPG");
+  background-image: url("../images/hunger.JPG");
   background-repeat: no-repeat, repeat;
   background-position: center; /* Center the image */
   background-size: cover; 
   background-blend-mode: none;
+  position: relative;
+  margin-top: -1vh;
 }
 
 .Darken {
@@ -33,10 +35,10 @@
 
 .IntroText {
   margin-top: 30vh;
-  font-family: $main-font;
-  font-style: italic;
+  font-family: $main-font, sans-serif;
   position: relative;
   z-index: 1;
+  font-style: italic;
 
   h1 {
     color: $white;
@@ -47,9 +49,9 @@
 
   h2 {
     color: $main-color;
-    font-weight: 600;
     font-size: 3vw;
     margin-top: -5.5%;
+    font-weight: 600;
   }
 }
 
