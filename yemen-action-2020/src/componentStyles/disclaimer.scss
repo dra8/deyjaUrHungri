@@ -5,19 +5,18 @@
   width: 100vw;
   height: 50vh;
   background-color: $black;
-  position: relative;
+  //position: relative;
   font-family: $main-font;
-  position: relative;
   z-index: 1;
   color: $white;
   text-align: justify;
   font-weight: 600;
   font-size: 2vmin;
-  position: relative;
+  animation-delay: 2s;
 }
 
 p, h3, h2 {
-  position: relative;
+  //position: relative;
   margin-left: 5%;
   margin-right: 5%;
 }
