@@ -20,6 +20,7 @@
   display: flex;
   z-index: 1;
   justify-content: space-around;
+  align-content: center;
   margin-left: 1vw;
   margin-right: 0vw;
   align-content: center;
@@ -28,7 +29,6 @@
 .challengeImage {
   position: relative;
   z-index: 1;
-
 }
 
 img {
@@ -46,6 +46,7 @@ img {
   text-align: justify;
   max-width: 60vw;;
   font-weight: 600;
+  align-self: center;
 }
 
 .animation {
