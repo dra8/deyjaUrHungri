@@ -5,7 +5,6 @@
   width: 100vw;
   height: 55vh;
   background-color: $black;
-  //position: relative;
   font-family: $main-font;
   z-index: 1;
   color: $white;
@@ -13,10 +12,12 @@
   font-weight: 600;
   font-size: 2vmin;
   animation-delay: 2s;
+  @media only screen and (max-width: 500px) {
+    height: 40vh;
+  }
 }
 
 p, h3, h2 {
-  //position: relative;
   margin-left: 5%;
   margin-right: 5%;
 }

@@ -11,7 +11,9 @@
   background-blend-mode: none;
   position: relative;
   background-attachment: fixed;
-
+  @media only screen and (max-width: 500px) {
+    height: 60vh;
+}
 }
 
 .darken {
