@@ -3,27 +3,37 @@
 .header {
   width: 100vw;
   height: 10vh;
-  background-color: black;
   color: white;
   position: sticky;
   top: 0;
   margin-top: -2vh;
-  z-index: 2;
-  opacity: 0.9;
+  z-index: 10;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: $main-font;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.background-color-navbar {
+  background-color: black;
 }
 
 .instalogo {
-  width: 5vh !important;
-  height: 5vh !important;
+  width: 20px !important;
+  height: 20px !important;
   padding: 0 3vw;
 }
 
-.menuitem {
-  width: 4vh !important;
-  height: 4vh !important;
-  padding: 1vh 3vw;
-}
+// .menuitem {
+//   width: 4vh !important;
+//   height: 4vh !important;
+//   padding: 1vh 3vw;
+// }

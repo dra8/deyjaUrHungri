@@ -1,0 +1,19 @@
+@import "./constants.scss";
+
+.AboutUs {
+  text-align: justify;
+  font-family: $main-font;
+
+  .about-us-text {
+    display: flex;
+  }
+  p {
+    color: white;
+  }
+  p:first-of-type {
+    margin-right: 20px;
+  }
+  p:last-of-type {
+    margin-left: 20px;
+  }
+}
