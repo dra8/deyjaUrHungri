@@ -1,0 +1,45 @@
+@import "./constants.scss";
+
+.unicef{
+  font-family: $main-font;
+  background-color: $black;
+  opacity: 0.8;
+  padding: 3vh;
+}
+
+.aur-text{
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 2ch;
+  @media only screen and (max-width: 800px) {
+    padding: 0 3vw;
+  }
+  padding: 0 10vw;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 2ch;
+  @media only screen and (max-width: 800px) {
+    padding: 0 10vw;
+  }
+  padding: 0 20vw;
+}
+ 
+li {
+  margin: 1.2vh;
+}
+
+.unicef-text {
+  text-align: left;
+}
+
+.unicef-title {
+  margin: 10vh 2vw 4vh 2vw;
+}

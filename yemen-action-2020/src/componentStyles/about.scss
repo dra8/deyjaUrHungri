@@ -3,7 +3,7 @@
 .about {
   height: 100vh;
   width: 100vw;
-  background-image: url("../images/war.JPG");
+  background-image: url("../images/war.png");
   background-repeat: no-repeat, repeat;
   background-position: center; /* Center the image */
   background-blend-mode: none;
@@ -18,19 +18,7 @@
   }
 }
 
-.shape {
-  position: absolute;
-  border-style: solid;
-  border-width: 50vh 50vw 50vh 50vw;
-  border-color:  $black;
-  opacity: 0.6;
-  z-index: 0;
-  top: 110%;
-  @media only screen and (max-width: 500px) {
-    top: 70.1%;
-    border-width: 40vh 50vw 40vh 50vw;
-  }
-}
+
 
 
 .moreButton {
@@ -57,7 +45,6 @@ p {
   z-index: 1;
   color: $white;
   padding-bottom: 0;
-  margin-bottom: 5% !important;
 }
 
 .aboutText {
