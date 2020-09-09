@@ -21,6 +21,7 @@ class Header extends Component {
         <a href="#About">Ástandið í Yemen</a>
         <a href="#Challenge">Áskorunin</a>
         <a href="#Menu">Matseðill</a>
+        <a href="#Unicef">Styrktu málefnið</a>
         <a href="#Interview">Viðtalið</a>
         <a href="#AboutUs">Um Okkur</a>
         <a href="https://www.instagram.com/deyjaurhungri/" target="_blank">

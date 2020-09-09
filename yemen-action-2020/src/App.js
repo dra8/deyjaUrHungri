@@ -10,6 +10,8 @@ import Intro from "./components/Intro";
 import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
 import DonateLinks from "./components/DonateLinks";
+import Unicef from "./components/Unicef";
+
 
 function App() {
   return (
@@ -34,6 +36,10 @@ function App() {
 
       <section id="Menu">
         <Menu></Menu>
+      </section>
+
+      <section id="Unicef">
+        <Unicef></Unicef>
       </section>
 
       <section id="Interview">

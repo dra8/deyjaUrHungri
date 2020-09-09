@@ -18,7 +18,13 @@ class Challenge extends Component {
         </ScrollAnimation>
           <div className="challengeText">
             <p>Yfirgnæfandi meirihluti Íslendinga upplifir ekki hungur í daglegu lífi. Samt sem áður erum við stöðugt að „deyja úr hungri“. En hvernig er að upplifa raunverulegt hungur, umfram almenna svengd, líkt og 20 milljónir Jemena gera dag hvern? Við skorum á þig að prófa!</p>
-            <p> Við biðjum ungt fólk á Íslandi að sleppa máltíð, annað hvort (pulsa og kók) … (apótek) …., og styrkja börn í Jemen um fjárhæðina sem henni nemur. Jafnframt biðjum við fólk að íhuga reynslu sína, og deila upplifuninni á InstaStory  með myllumerkinu #deyjaúrhungri. Þannig vekjum við aðra til umhugsunar um efnahagsleg forréttindi sín, og söfnum pening fyrir jemensk börn.</p>
+            <p> Við biðjum ungt fólk á Íslandi að sleppa máltíð eftir matseðlinum
+          okkar og styrkja börn í Jemen um fjárhæðina sem henni nemur. Jafnframt
+          biðjum við fólk að íhuga reynslu sína, og deila upplifuninni á
+          InstaStory með myllumerkinu #deyjaúrhungri. Þannig vekjum við aðra til
+          umhugsunar um efnahagsleg forréttindi sín, og söfnum pening fyrir
+          jemensk börn.
+          Hægt er að sjá matseðilinn og hvernig er hægt að styrkja málefnið hér að neðan.</p>
           </div>
         </div>
     </div>;
