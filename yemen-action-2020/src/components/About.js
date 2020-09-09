@@ -5,7 +5,6 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <h2>Ástandið í Yemen</h2>
         <p className="aboutText">
           Í Jemen hefur geysað borgarastyrjöld síðan 2015. Samkvæmt tölum
           Amnesty International eru um 16 milljónir mans sem lifa við sára
@@ -17,7 +16,6 @@ class About extends Component {
           talist alvarlegir stríðsglæpir.
         </p>
         <div className="shape"></div>
-        <button className="moreButton">Lesa meira </button>
 
         <p className="aboutMoreText">
           {" "}

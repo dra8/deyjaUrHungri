@@ -4,14 +4,15 @@
   margin: 0;
   width: 100vw;
   height: 55vh;
-  background-color: $black;
+  background-color: $white;
   font-family: $main-font;
-  z-index: 1;
   color: $white;
+  opacity: 1;
   text-align: justify;
   font-weight: 600;
   font-size: 2vmin;
   animation-delay: 2s;
+  padding-top:5%;
   @media only screen and (max-width: 500px) {
     height: 40vh;
   }
