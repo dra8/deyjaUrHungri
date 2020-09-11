@@ -1,21 +1,21 @@
 @import "./constants.scss";
 
+#Challenge {
+  width: 100%;
+}
+
 .challenge {
-  width: 100vw;
-  height: 90vh;
   @media only screen and (max-width: 500px) {
     height: 150vh;
   }
+  padding: 80px 5%;
 }
 
 .challengeTitle {
-  position: relative;
   color: $main-color;
-  font-size: 3vmax;
-  font-style: italic;
+  font-size: 60px;
   font-family: $main-font;
   z-index: 1;
-  margin: 5vmin;
 }
 
 .challengeContent {
@@ -49,9 +49,7 @@ img {
   z-index: 1;
   color: $white;
   text-align: justify;
-  max-width: 60vw;;
-  font-weight: 600;
-  align-self: center;
+  max-width: 60vw;
 }
 
 .animation {

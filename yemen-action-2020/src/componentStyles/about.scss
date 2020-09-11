@@ -1,64 +1,82 @@
 @import "./constants.scss";
 
 .about {
-  height: 100vh;
-  width: 100vw;
   background-image: url("../images/war.png");
   background-repeat: no-repeat, repeat;
   background-position: center; /* Center the image */
   background-blend-mode: none;
   background-size: cover;
   background-color: $dark-dark-grey;
-  overflow: hidden; 
+  overflow: hidden;
   z-index: 1;
   opacity: 0.95;
-  padding-top: -5vh;
+  padding: 80px 5%;
+  text-align: right;
+  font-family: $main-font;
+
   @media only screen and (max-width: 500px) {
-      height: 80vh;
+    height: 80vh;
   }
-}
 
+  h2 {
+    color: white;
+    font-size: 60px;
+    width: 60%;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
 
+  p {
+    width: 60%;
+    margin-left: auto;
+  }
 
+  img {
+    z-index: 1;
+  }
 
-.moreButton {
-  background-color: transparent; /* Green */
-  border: none;
-  color: $white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3vmin;
-  font-family: $main-font;
-  z-index: 2;
-  transition-duration: 0.4s;
-}
+  .moreButton {
+    background-color: transparent; /* Green */
+    border: none;
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    // display: inline-block;
+    font-size: 3vmin;
+    // font-family: $main-font;
+    z-index: 2;
+    transition-duration: 0.4s;
+    margin: 5%;
+  }
+  .moreButton:hover {
+    font-size: 3.5vmin;
+    color: black;
+    background-color: white;
+  }
 
-.moreButton:hover {
-  font-size: 3.5vmin;
-  color: black;
-  background-color: white;
-}
+  p {
+    font-family: $main-font;
+    z-index: 1;
+    color: $white;
+    padding-bottom: 0;
+  }
 
-p {
-  font-family: $main-font;
-  z-index: 1;
-  color: $white;
-  padding-bottom: 0;
-}
+  .aboutText {
+    position: relative;
+    position: relative;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 4vmin;
+    margin: 10%;
+    padding-bottom: 0;
+  }
 
-.aboutText {
-  position: relative;
-  position: relative;
-  text-align: justify;
-  font-weight: 600;
-  font-size: 4vmin;
-  margin: 10%;
-  padding-bottom: 0;
-}
+  #aboutMoreText {
+    text-align: justify;
+    color: white;
+  }
 
-.aboutMoreText {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
+  .hideMore {
+    display: none;
+  }
 }

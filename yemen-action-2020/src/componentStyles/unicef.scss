@@ -1,17 +1,15 @@
 @import "./constants.scss";
 
-.unicef{
+.unicef {
   font-family: $main-font;
   background-color: $black;
-  opacity: 0.8;
-  padding: 3vh;
+  padding: 80px 5%;
 }
 
-.aur-text{
+.aur-text {
   position: relative;
   z-index: 1;
   font-weight: 500;
-  font-size: 2ch;
   @media only screen and (max-width: 800px) {
     padding: 0 3vw;
   }
@@ -24,14 +22,13 @@ ul {
   z-index: 1;
   text-align: left;
   font-family: $main-font;
-  font-weight: 500;
-  font-size: 2ch;
+  // font-size: 2ch;
   @media only screen and (max-width: 800px) {
     padding: 0 10vw;
   }
   padding: 0 20vw;
 }
- 
+
 li {
   margin: 1.2vh;
 }

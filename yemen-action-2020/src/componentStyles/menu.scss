@@ -1,7 +1,46 @@
 @import "./constants.scss";
 
 .menu {
-  width: 100vw;
-  height: 100vh;
   color: white;
+  padding: 80px 5%;
+  font-family: $main-font;
+  background-color: black;
+  position: relative;
+  z-index: 10;
+
+  h2 {
+    font-size: 60px;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  .menu-items {
+    display: flex;
+  }
+
+  .menu-items-info {
+    text-align: left;
+
+    p {
+      margin-left: 0px;
+    }
+
+    p:first-of-type {
+      font-size: 20px;
+      color: $main-color;
+      font-weight: bold;
+    }
+    p:nth-child(2) {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 5px;
+    }
+
+    p:nth-child(3) {
+      color: $main-color;
+      font-size: 16px;
+    }
+  }
 }

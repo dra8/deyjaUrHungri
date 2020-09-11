@@ -49,7 +49,7 @@
   font-family: $main-font, sans-serif;
   position: relative;
   z-index: 1;
-  font-style: italic;
+  // font-style: italic;
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
   -moz-animation: fadeIn ease 3s;
@@ -60,6 +60,11 @@
     color: $white;
     font-weight: 800;
     font-size: 8vw;
+    line-height: 20px;
+  }
+
+  h1:first-of-type {
+    font-size: 4vw;
   }
 
   h2 {

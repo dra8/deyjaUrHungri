@@ -1,23 +1,40 @@
 import React, { Component } from "react";
 import "../componentStyles/about.scss";
+import yemenMap from "../images/yemen-map.png";
+import jquery from "jquery";
+
+jquery(document).ready(function () {
+  jquery("#moreButtonAbout").on("click", function () {
+    if (jquery("#aboutMoreText").hasClass("hideMore")) {
+      jquery("#aboutMoreText").removeClass("hideMore");
+      jquery("#moreButtonAbout").text("Sjá minna");
+    } else {
+      jquery("#aboutMoreText").addClass("hideMore");
+      jquery("#moreButtonAbout").text("Meira um ástandið");
+    }
+  });
+});
 
 class About extends Component {
   render() {
     return (
       <div className="about">
-        <p className="aboutText">
-          Í Jemen hefur geysað borgarastyrjöld síðan 2015. Samkvæmt tölum
-          Amnesty International eru um 16 milljónir mans sem lifa við sára
-          hungursneið í Jemen. Borgarastyrjöldinni fylgir ekki einungis
+        <h2>Um 16 milljónir manns lifa við sára hungursneið í Jemen</h2>
+        <p>
+          samkvæmt tölum Amnesty International. <br></br> Í Jemen hefur geysað
+          borgarastyrjöld síðan 2015. Borgarastyrjöldinni fylgir ekki einungis
           hungursneið, en á þeim rúmlega fimm árum sem hún hefur geysað er talið
           að 230 þúsund almennir borgarar hafi látist, en 20 þúsund
           dauðsfallanna hafa verið staðfest af Mannréttindastofnun Sameinuðu
           Þjóðanna. Styrjöldinni fylgja alvarleg mannréttindabrot, sem oft geta
           talist alvarlegir stríðsglæpir.
         </p>
-        <div className="shape"></div>
 
-        <p className="aboutMoreText">
+        <button className="moreButton" id="moreButtonAbout">
+          Meira um ástandið
+        </button>
+
+        <p className="hideMore" id="aboutMoreText">
           {" "}
           Árið 2011 var forsetanum Ali Abdullah Saleh steypt af stóli eftir 33
           ára valdatíð. Hann hafði lengi verið ásakaðum um alvarleg

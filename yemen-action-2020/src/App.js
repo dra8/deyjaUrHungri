@@ -12,7 +12,6 @@ import AboutUs from "./components/AboutUs";
 import DonateLinks from "./components/DonateLinks";
 import Unicef from "./components/Unicef";
 
-
 function App() {
   return (
     <div className="App">

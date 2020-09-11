@@ -1,7 +1,7 @@
 @import "./constants.scss";
 
 .header {
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   color: white;
   position: sticky;
@@ -31,9 +31,3 @@
   height: 20px !important;
   padding: 0 3vw;
 }
-
-// .menuitem {
-//   width: 4vh !important;
-//   height: 4vh !important;
-//   padding: 1vh 3vw;
-// }
