@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../componentStyles/header.scss";
 import instalogo from "../images/instalogo-white.png";
-import menuitem from "../images/menu-white.png";
 import jquery from "jquery";
 
 jquery(document).ready(function () {
@@ -27,10 +26,6 @@ class Header extends Component {
         <a href="https://www.instagram.com/deyjaurhungri/" target="_blank">
           <img className="instalogo" src={instalogo} alt="instagram logo"></img>
         </a>
-
-        {/* <div>
-          <img className="menuitem" src={menuitem} alt="menu item"></img>
-        </div> */}
       </div>
     );
   }

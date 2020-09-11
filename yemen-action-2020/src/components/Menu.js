@@ -7,8 +7,6 @@ import pizza from "../images/menu/pizza.png";
 import pulsakok from "../images/menu/pulsakok.png";
 import supa from "../images/menu/supa.png";
 
-// import pulsaogkok from "../images/pulsa_kok.png";
-
 class Menu extends Component {
   render() {
     return (

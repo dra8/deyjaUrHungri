@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../componentStyles/about.scss";
-import yemenMap from "../images/yemen-map.png";
 import jquery from "jquery";
 
 jquery(document).ready(function () {
