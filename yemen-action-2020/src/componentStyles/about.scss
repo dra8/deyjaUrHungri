@@ -15,7 +15,8 @@
   font-family: $main-font;
 
   @media only screen and (max-width: 500px) {
-    height: 80vh;
+    width: 100vw;
+    padding: 0;
   }
 
   h2 {
@@ -24,6 +25,12 @@
     width: 60%;
     margin-bottom: 0px;
     margin-left: auto;
+
+    @media only screen and (max-width: 500px) {
+      width: 100vw;
+      font-size: 30px;
+      padding-right: 10vw;
+    }
   }
 
   p {

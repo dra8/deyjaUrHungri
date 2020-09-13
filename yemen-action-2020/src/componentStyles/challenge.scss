@@ -5,9 +5,6 @@
 }
 
 .challenge {
-  @media only screen and (max-width: 500px) {
-    height: 150vh;
-  }
   padding: 80px 5%;
 }
 
@@ -50,6 +47,7 @@ img {
   color: $white;
   text-align: justify;
   max-width: 60vw;
+  align-self: center;
 }
 
 .animation {

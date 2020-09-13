@@ -8,23 +8,37 @@
   padding: 80px 5%;
   position: relative;
   background-color: black;
-  z-index: 10;
+  z-index: 1;
+  @media only screen and (max-width: 900px) {
+    width: 100vw;
+    padding: 0;
+  }
 
   #quote1 {
     width: 1102px;
     max-width: 900px !important;
     max-height: 900px !important;
     padding-right: 30px;
+    @media only screen and (max-width: 500px) {
+      width: 80vw;
+    }
   }
 
   #quote2 {
     max-width: 900px !important;
     max-height: 900px !important;
     padding-left: 30px;
+    @media only screen and (max-width: 900px) {
+      width: 80vw;
+      padding-left:0;
+    }
   }
 
   .interview-audio {
     width: 900px;
+    @media only screen and (max-width: 900px) {
+      width: 95vw;
+    }
     margin-bottom: 20px;
     margin-top: 20px;
   }
